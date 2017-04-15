@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Mi App Trivial</string>
+    <string name="answerText5_2">Ganímedes</string>
+    <string name="buttonScore">Mi Puntuación</string>
+    <string name="buttonStartOver">Jugar otra vez</string>
+    <string name="button_next">Comenzar</string>
+    <string name="hintEditText">Escribe aquí tu respuesta</string>
+    <string name="instructions">Te aparecerán siete preguntas. Cada una vale un punto. ¡Buena suerte!</string>
+    <string name="questionFive">5.- ¿Cuáles son las lunas de Júpiter?</string>
+    <string name="questionFour">4.- ¿Dónde  se encuentra el Mar de la Tranquilidad?</string>
+    <string name="answerText1_1"> Katherine Hepburn </string>
+    <string name="answerText1_2">Meryl Streep</string>
+    <string name="answerText1_3">Ingrid Bergman</string>
+    <string name="answerText1_4">Cate Blanchett</string>
+    <string name="questionOne">1.- ¿Qué actriz ha ganado más Oscars?</string>
+    <string name="questionSeven">7.- ¿Cuál es el nombre de ésta criatura de la película \"Animales fantásticos y dónde encontrarlos\"</string>
+    <string name="questionSix">6.- De los siguientes, ¿cuáles pertenecen a la Cordillera de Los Andes?</string>
+    <string name="questionThree">3.- ¿En qué año el hombre llegó a la Luna?</string>
+    <string name="questionTwo">2.- ¿Cuál es la capital de España?</string>
+    <string name="scoreMessage">"Su puntuación es: "</string>
+    <string name="welcome">¡Bienvenido!</string>
+
+
+</resources>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">My Trivia App</string>
+
+    <!--Activities Headings-->
+
+    <!--Questions-->
+    <string name="questionOne">1.- Which actress has won the most Oscars?</string>
+    <string name="questionTwo">2.- Which is the capital city of Spain?</string>
+    <string name="questionThree">3.- In what year did the man land on the moon?</string>
+    <string name="questionFour">4.- Where would you find the Sea of Tranquillity?</string>
+    <string name="questionFive">5.- Which of the following are Jupiter\'s moons?</string>
+    <string name="questionSix">6.- Which of the following belong to the Andean mountain range?</string>
+    <string name="questionSeven">7.- What is the name of this creature from the movie \"Fantastic beasts and where to find them\"?</string>
+
+    <!--Answers-->
+
+    <!--Question 1-->
+    <string name="answerText1_1">Katherine Hepburn</string>
+    <string name="answerText1_2">Meryl Streep</string>
+    <string name="answerText1_3">Ingrid Bergman</string>
+    <string name="answerText1_4">Cate Blanchett</string>
+
+    <!--Question 2-->
+    <string name="answerText2_1">Valencia</string>
+    <string name="answerText2_2">Barcelona</string>
+    <string name="answerText2_3">Madrid</string>
+    <string name="answerText2_4">Bilbao</string>
+
+    <!--Question 5-->
+    <string name="answerText5_1">Europa</string>
+    <string name="answerText5_2">Ganymede</string>
+    <string name="answerText5_3">Callisto</string>
+    <string name="answerText5_4">Titan</string>
+
+    <!--Question 6-->
+    <string name="answerText6_1">Aconcagua</string>
+    <string name="answerText6_2">Aneto</string>
+    <string name="answerText6_3">Pico Bolivar</string>
+    <string name="answerText6_4">Chimborazo</string>
+
+    <!--Question 7-->
+    <string name="answerText7_1">Demiguise</string>
+    <string name="answerText7_2">Bowtruckle</string>
+    <string name="answerText7_3">Niffler</string>
+    <string name="answerText7_4">Erumpent</string>
+
+    <!--Others-->
+    <string name="scoreMessage">Your Score is: \u0020</string>
+    <string name="scoreMessage1">/7</string>
+    <string name="button_next">Start</string>
+    <string name="buttonScore">My Score</string>
+    <string name="buttonStartOver">Start Over</string>
+    <string name="hintEditText">Write here</string>
+    <string name="welcome">Welcome! </string>
+    <string name="instructions">You will be presented seven questions. Each one score one point. Good Luck!</string>
+
+    <!--Spinner array-->
+
+    <string name="language_prompt">Choose a language</string>
+
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+</resources>
