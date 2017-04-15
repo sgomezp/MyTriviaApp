@@ -1,7 +1,5 @@
 package com.example.android.mytriviaapp;
 
-import android.content.Context;
-import android.content.ContextWrapper;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -29,23 +27,24 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
+//    Comento para cambiar el cómo cambio del Idioma desde runTime
+    /*@Override
     protected void attachBaseContext(Context newBase) {
         // .. create or get your new Locale object here.
 
-    /* if (spinner.getSelectedItemPosition() == 0){
+    *//* if (spinner.getSelectedItemPosition() == 0){
           idioma = "en";
       }else {
           if (spinner.getSelectedItemPosition() == 1){
               idioma = "es";
           }
-      }*/
+      }*//*
 
 
         super.attachBaseContext(MyContextWrapper.wrap(newBase, idioma));
         Context context = ContextWrapper.wrap(newBase, myLocale);
         super.attachBaseContext(context);
-    }
+    }*/
 
 
     public void addListenerOnSpinnerItemSelection() {
