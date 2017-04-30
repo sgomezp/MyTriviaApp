@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorBackground"
     android:fillViewport="true">
+
     <LinearLayout
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
@@ -15,6 +16,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="com.example.android.justjava.MainActivity">
+
         <ImageView
             android:id="@+id/welcomwImage"
             android:layout_width="match_parent"
@@ -22,11 +24,13 @@
             android:layout_margin="@dimen/activity_horizontal_margin"
             android:paddingTop="@dimen/activity_horizontal_margin"
             android:src="@drawable/boy_quiz" />
+
         <TextView
             style="@style/welcome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/welcome" />
+
         <TextView
             android:id="@+id/instructions"
             style="@style/instructions"
@@ -34,14 +38,31 @@
             android:layout_height="wrap_content"
             android:text="@string/instructions" />
 
-        <Button
-            style="@style/buttons"
-            android:onClick="buttonNext"
-            android:text="@string/button_next" />
 
-        <Button
-            style="@style/buttons"
-            android:onClick="buttonOptions"
-            android:text="@string/change_language" />
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context="com.example.android.justjava.MainActivity">
+
+            <Button
+                style="@style/buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="buttonNext"
+                android:text="@string/button_next" />
+
+            <Button
+                style="@style/buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="buttonOptions"
+                android:text="@string/change_language" />
+
+        </LinearLayout>
+
     </LinearLayout>
+
 </ScrollView>

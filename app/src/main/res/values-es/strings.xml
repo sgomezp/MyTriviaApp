@@ -23,7 +23,7 @@
     <string name="language_prompt">Selecciona un Idioma</string>
     <string name="language_title">Idioma</string>
     <string name="applyButton">Aplicar</string>
-    <string name="change_language">Cambiar Idioma</string>
+    <string name="change_language">Idioma</string>
 
 
 </resources>

@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+
     public void buttonNext(View view) {
         Intent intent = new Intent(this, QuestionOne.class);
         startActivity(intent);
@@ -23,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, OptionsActivity.class);
         startActivity(intent);
     }
-
 
 
 }

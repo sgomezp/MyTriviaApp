@@ -16,6 +16,8 @@ import java.util.Locale;
 
 public class OptionsActivity extends AppCompatActivity implements OnItemSelectedListener {
 
+    static final String STATE_LANGUAGE = "English";
+
     Spinner langSpinner;
     Locale myLocale;
     String idio;
@@ -33,6 +35,26 @@ public class OptionsActivity extends AppCompatActivity implements OnItemSelected
 
     }
 
+
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+
+        // Save the user's current language state
+        savedInstanceState.putString(STATE_LANGUAGE, idio);
+
+        // Always call the superclass so it can save the view hierarchy state
+        super.onSaveInstanceState(savedInstanceState);
+    }
+
+    public void onRestoreInstanceState(Bundle saveInstanceState) {
+
+        // Always call the superclass so it can restore the view hierarchy
+        super.onRestoreInstanceState(saveInstanceState);
+
+        // Restore state members from saved instance
+        idio = saveInstanceState.getString(STATE_LANGUAGE);
+    }
+
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
 
@@ -41,16 +63,12 @@ public class OptionsActivity extends AppCompatActivity implements OnItemSelected
 
         if (idio.equals("English")) {
 
-            /*Toast.makeText(parent.getContext(),
-                    "You have selected English", Toast.LENGTH_SHORT)
-                    .show();*/
+
             setLocale("en");
 
 
         } else if (idio.equals("Español")) {
-            /*Toast.makeText(parent.getContext(),
-                    "You have selected Español", Toast.LENGTH_SHORT)
-                    .show();*/
+
             setLocale("es");
         }
 
