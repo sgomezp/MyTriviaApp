@@ -5,8 +5,8 @@
     android:layout_height="match_parent"
     android:background="@color/colorBackground"
     android:fillViewport="true">
+
     <LinearLayout
-        android:id="@+id/activity_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -15,33 +15,29 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="com.example.android.justjava.MainActivity">
-        <ImageView
-            android:id="@+id/welcomwImage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/activity_horizontal_margin"
-            android:src="@drawable/boy_quiz" />
+
         <TextView
             style="@style/welcome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/welcome" />
-        <TextView
-            android:id="@+id/instructions"
-            style="@style/instructions"
-            android:layout_width="match_parent"
+            android:text="@string/language_title" />
+
+        <Spinner
+            android:id="@+id/langs"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/instructions" />
+            android:layout_gravity="center_horizontal"
+            android:entries="@array/languages_array"
+            android:prompt="@string/language_prompt"
+            android:spinnerMode="dropdown">
+
+        </Spinner>
 
         <Button
             style="@style/buttons"
-            android:onClick="buttonNext"
-            android:text="@string/button_next" />
+            android:onClick="applyLanguage"
+            android:text="@string/applyButton" />
 
-        <Button
-            style="@style/buttons"
-            android:onClick="buttonOptions"
-            android:text="@string/change_language" />
     </LinearLayout>
+
 </ScrollView>

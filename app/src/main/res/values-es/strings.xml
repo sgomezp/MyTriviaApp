@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <string name="app_name">Mi App Trivial</string>
     <string name="answerText5_2">Ganímedes</string>
     <string name="buttonScore">Mi Puntuación</string>
@@ -20,6 +20,10 @@
     <string name="questionTwo">2.- ¿Cuál es la capital de España?</string>
     <string name="scoreMessage">"Su puntuación es: "</string>
     <string name="welcome">¡Bienvenido!</string>
+    <string name="language_prompt">Selecciona un Idioma</string>
+    <string name="language_title">Idioma</string>
+    <string name="applyButton">Aplicar</string>
+    <string name="change_language">Cambiar Idioma</string>
 
 
 </resources>

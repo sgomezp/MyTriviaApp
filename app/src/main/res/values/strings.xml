@@ -57,6 +57,9 @@
     <!--Spinner array-->
 
     <string name="language_prompt">Choose a language</string>
+    <string name="language_title">Language</string>
+    <string name="applyButton">Apply</string>
+    <string name="change_language">Change Language</string>
 
     <string-array name="languages_array">
         <item>English</item>
