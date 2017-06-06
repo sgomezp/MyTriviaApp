@@ -5,4 +5,9 @@
     <dimen name="image_height">100dp</dimen>
     <dimen name="image_margin">26dp</dimen>
     <dimen name="margin_bottom">36dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_26">26dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="text_size_36">36sp</dimen>
 </resources>

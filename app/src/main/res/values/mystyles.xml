@@ -4,8 +4,8 @@
     <style name="Questions" parent="@android:style/TextAppearance.Medium">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name= "android:layout_marginTop">25dp</item>
-        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_25</item>
+        <item name="android:layout_marginBottom">@dimen/margin_16</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:gravity">left</item>
         <item name="android:textStyle">bold</item>
@@ -16,22 +16,22 @@
     <style name="welcome" parent="@android:style/TextAppearance.Medium">
         <item name="android:layout_gravity">center</item>
         <item name="android:textColor">#000000</item>
-        <item name="android:layout_margin">26dp</item>
-        <item name="android:textSize">36sp</item>
+        <item name="android:layout_margin">@dimen/margin_26</item>
+        <item name="android:textSize">@dimen/text_size_36</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <!--Style for Instructions Text-->
     <style name="instructions" parent="@android:style/TextAppearance.Medium">
         <item name="android:gravity">center|center_vertical</item>
-        <item name="android:textColor">#000000</item>
-        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_marginBottom">@dimen/margin_16</item>
         <item name="android:textStyle">normal</item>
     </style>
 
     <!--Style for RadioButtons-->
     <style name="RadioButtonAnswers" parent="@android:style/TextAppearance.Small">
-        <item name="android:padding">10dp</item>
+        <item name="android:padding">@dimen/margin_10</item>
         <item name="android:textColor">@color/colorSecondaryText</item>
     </style>
 
