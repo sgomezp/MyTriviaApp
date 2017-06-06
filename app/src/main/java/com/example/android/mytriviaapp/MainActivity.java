@@ -7,13 +7,11 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
 
     public void buttonNext(View view) {
         Intent intent = new Intent(this, QuestionOne.class);
@@ -24,6 +22,4 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, OptionsActivity.class);
         startActivity(intent);
     }
-
-
 }

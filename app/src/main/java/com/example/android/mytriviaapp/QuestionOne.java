@@ -46,13 +46,11 @@ public class QuestionOne extends AppCompatActivity {
     Boolean IsCheckanswerQuestion63;
     Boolean IsCheckanswerQuestion64;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question_one);
     }
-
 
     @Override
     public void onSaveInstanceState(Bundle saveInstanceState) {
@@ -197,33 +195,33 @@ public class QuestionOne extends AppCompatActivity {
     }
 
     public void CalculateScore(View view) {
-//      Check answer number 1. If correct add 1 to finalScore
+        //Check answer number 1. If correct add 1 to finalScore
         RadioButton correctAnswer1 = (RadioButton) findViewById(R.id.answer1_1);
         if (correctAnswer1.isChecked()) {
             finalScore += 1;
         }
 
-//      Check answer number 2. If correct add 1 to finalScore
+        //Check answer number 2. If correct add 1 to finalScore
         RadioButton correctAnswer2 = (RadioButton) findViewById(R.id.answer2_3);
         if (correctAnswer2.isChecked()) {
             finalScore += 1;
         }
 
-//      Check answer number 3. If correct add 1 to finalScore
+        //Check answer number 3. If correct add 1 to finalScore
         EditText Answer3 = (EditText) findViewById(answer3);
         String correctAnswer3 = Answer3.getText().toString();
         if (correctAnswer3.equals("1969")) {
             finalScore += 1;
         }
 
-//      Check answer number 4. If correct add 1 to finalScore
+        //Check answer number 4. If correct add 1 to finalScore
         EditText Answer4 = (EditText) findViewById(answer4);
         String correctAnswer4 = Answer4.getText().toString();
         if (correctAnswer4.contains("Moon") | correctAnswer4.contains("Luna")) {
             finalScore += 1;
         }
 
-//     Check answer number 5. If correct add 1 to finalScore
+        //Check answer number 5. If correct add 1 to finalScore
         CheckBox answer51 = (CheckBox) findViewById(R.id.answer5_1);
         CheckBox answer52 = (CheckBox) findViewById(R.id.answer5_2);
         CheckBox answer53 = (CheckBox) findViewById(R.id.answer5_3);
@@ -239,7 +237,7 @@ public class QuestionOne extends AppCompatActivity {
 
         }
 
-//      Check answer number 6. If correct add 1 to finalScore
+        //Check answer number 6. If correct add 1 to finalScore
         CheckBox answer61 = (CheckBox) findViewById(R.id.answer6_1);
         CheckBox answer62 = (CheckBox) findViewById(R.id.answer6_2);
         CheckBox answer63 = (CheckBox) findViewById(R.id.answer6_3);
@@ -255,13 +253,13 @@ public class QuestionOne extends AppCompatActivity {
 
         }
 
-//      Check answer number 7. If correct add 1 to finalScore
+        //Check answer number 7. If correct add 1 to finalScore
         RadioButton correctAnswer7 = (RadioButton) findViewById(R.id.answer7_3);
         if (correctAnswer7.isChecked()) {
             finalScore += 1;
         }
 
-//      Display a toast with the score result
+        //Display a toast with the score result
         ImageView smyle = (ImageView) findViewById(R.id.smiles);
         if (finalScore <= 3) {
             smyle.setImageResource(R.drawable.sad_smiley_face);

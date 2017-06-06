@@ -35,7 +35,6 @@ public class OptionsActivity extends AppCompatActivity implements OnItemSelected
 
     }
 
-
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
 
@@ -78,12 +77,10 @@ public class OptionsActivity extends AppCompatActivity implements OnItemSelected
         // TODO Auto-generated method stub
     }
 
-
     public void applyLanguage(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
-
 
     public void setLocale(String idioma) {
         myLocale = new Locale(idioma);
